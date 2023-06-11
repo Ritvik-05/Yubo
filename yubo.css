@@ -1,0 +1,415 @@
+@font-face {
+    font-family: lululu;
+    src: url(./RightGrotesk-CompactBlack.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lululu;
+
+    /* font-family:"Right Grotesk"; */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    word-wrap: break-word;
+    /* font-family: RightGrotesk; */
+    padding: 0px 450px;
+}
+
+.section1 h1 {
+    /* word-wrap: break-word; */
+    white-space: nowrap;
+    text-align: center;
+    color: yellow;
+    font-size: 140px;
+    font-weight: 900;
+    line-height: 130px;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+.sec2 {
+    background-color: #FFE30A;
+    width: 100%;
+    height: 145%;
+    /* position: absolute; */
+}
+
+.sec2 h1 {
+    position: absolute;
+    font-size: 110px;
+    font-weight: 800;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-left: 200px;
+    padding-top: 290px;
+    margin-right: 550px;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+}
+
+.black {
+    position: absolute;
+    margin-top: 1000px;
+    width: 100%;
+}
+
+.mobile {
+    height: 800px;
+    top: 125%;
+    left: 55%;
+    position: absolute;
+}
+
+.redtag {
+    position: absolute;
+    padding-left: 1100px;
+    padding-top: 300px;
+}
+
+.purpletag {
+    position: absolute;
+    padding-left: 650px;
+    padding-top: 650px;
+}
+
+.greentag {
+    position: absolute;
+    padding-left: 650px;
+    padding-top: 450px;
+}
+
+.sec3 {
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+    height: 100%;
+    width: 100%;
+    background-color: #FFE30A;
+}
+
+.sec3 h1 {
+    position: absolute;
+    font-size: 110px;
+    font-weight: 800;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-left: 200px;
+    padding-top: 290px;
+    margin-right: 750px;
+    line-height: 1;
+    color: #FFE30A;
+}
+
+.sec3 p {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-left: 880px;
+    padding-top: 350px;
+    margin-right: 200px;
+    line-height: 1;
+    color: #ffffff;
+}
+
+.sec3 button {
+    position: absolute;
+    font-size: 25px;
+    padding: 10px 10px;
+    border: 1px solid #FFE30A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 35px;
+    font-weight: 700;
+    margin-left: 880px;
+    margin-top: 550px;
+    background-color: #FFE30A;
+    color: #151400;
+}
+
+.sec3 button:hover {
+    transition: all ease 0.3s;
+    cursor: pointer;
+    background-color: #151400;
+    color: #FFE30A;
+    /* button mai transition cursor hatate time nai aara h ? */
+}
+
+.sec4 {
+    background-color: #151400;
+    height: 215%;
+    position: relative;
+    width: 100%;
+}
+
+.girl {
+    position: absolute;
+    margin-left: 750px;
+    height: 800px;
+    /* -o-border-image:fill; */
+    border-radius: 40px;
+    margin-top: 200px;
+}
+
+.purpletag2 {
+    position: absolute;
+    margin: 150px 150px;
+}
+
+.sec4 p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 610px 200px;
+    font-size: 35px;
+    margin-right: 850px;
+    position: absolute;
+}
+
+.GetYubo {
+    position: absolute;
+    font-size: 25px;
+    padding: 10px 10px;
+    border: 1px solid #FFE30A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 35px;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-top: 1030px;
+    background-color: #FFE30A;
+    color: #151400;
+}
+
+.GetYubo:hover {
+    transition: all ease 0.3s;
+    cursor: pointer;
+    background-color: #151400;
+    color: #FFE30A;
+    /* button mai transition cursor hatate time nai aara h ? */
+}
+
+.sec4 h1 {
+    margin-top: 1000px;
+    position: absolute;
+    font-size: 140px;
+    font-weight: 700;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-left: 200px;
+    padding-top: 320px;
+    letter-spacing: 0px;
+    word-spacing: -30px;
+    margin-right: 500px;
+    line-height: 1;
+    color: #FFE30A;
+}
+
+.cooldude {
+    transform: translate(-10%, +8%);
+    height: 120px;
+    align-items: flex-start;
+
+}
+
+.sec5 {
+    background-color: #151400;
+    height: 200%;
+    background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+    width: 100%;
+}
+
+.viewourblog {
+    position: absolute;
+    font-size: 25px;
+    padding: 10px 10px;
+    border: 1px solid #FFE30A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 35px;
+    font-weight: 700;
+    margin-left: 1100px;
+    margin-top: 1400px;
+    background-color: #FFE30A;
+    color: #151400;
+}
+
+.viewourblog:hover {
+    transition: all ease 0.3s;
+    cursor: pointer;
+    background-color: #151400;
+    color: #FFE30A;
+    /* button mai transition cursor hatate time nai aara h ? */
+}
+
+.box1 {
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 800px;
+    height: 500px;
+    width: 550px;
+    background-image: url(https://images.prismic.io/yubo/4e7a5333-9e65-4a60-a2d1-7b9680e002f2_Blog_CommunityTipsAndTricks.png?auto=compress,format);
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.box1 h2 {
+    color: #ffffff;
+    top: 45%;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 40px;
+    position: absolute;
+}
+
+.box2 {
+    Margin: 250px 250px;
+    border-radius: 50px;
+    height: 500px;
+    width: 400px;
+    background-image: url(https://images.prismic.io/yubo/42e1a41b-e054-4f52-a214-e3ea5e475aa4_Blog_Yubo+Horoscope.png?auto=compress,format);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+}
+
+.box3 {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 850px;
+    border-radius: 50px;
+    height: 500px;
+    width: 450px;
+    background-image: url(https://images.prismic.io/yubo/f34dcf26-d146-4205-ab86-46e4daef0781_Blog_Community+Building+and+Making+Friends+on+Yubo.png?auto=compress,format);
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #00000081;
+    position: relative;
+}
+
+#overlay h1 {
+    font-size: 40px;
+    /* font-family: "Right Growtesk"; */
+    color: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+#overlay:hover {
+    background-color: #00000000;
+
+}
+
+.black1 {
+    background-color: rgba(0, 0, 0, 0.628);
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 800px;
+    height: 500px;
+    width: 550px;
+}
+
+.black2 {
+    background-color: rgba(0, 0, 0, 0.628);
+    position: absolute;
+    Margin: 250px 250px;
+    border-radius: 50px;
+    height: 500px;
+    width: 400px;
+}
+
+.black3 {
+    background-color: rgba(0, 0, 0, 0.628);
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 850px;
+    border-radius: 50px;
+    height: 500px;
+    width: 450px;
+}
+
+svg {
+    position: absolute;
+    z-index: 999;
+    transform: scaleX(-1) scaleY(-1);
+    position: absolute;
+
+    font-family: RightGroteskBold;
+    letter-spacing: .05em;
+    pointer-events: none;
+    font-size: 4em;
+    left: -18%;
+    top: 12%;
+    width: 150%;
+    overflow: hidden;
+    vertical-align: middle;
+
+}
+
+#lastimg {
+    height: 400px;
+    position: absolute;
+    margin-top: 1200px;
+    left: 50%;
+    transform: translate(-50%);
+    /* width: 100px; */
+}
+
+.sec6 {
+    background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #976BFF;
+}
+
+.list{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 26px;
+    padding-top: 300px;
+line-height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list h1{
+    padding-bottom: 40px;
+}
